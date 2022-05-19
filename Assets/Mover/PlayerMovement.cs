@@ -5,22 +5,27 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector2 moveVal;
+    public float moveSpeed;
+    public PlayerVars test2;
 
     void OnMove(InputValue value)
     {
+        //Get player state
+        
         Debug.Log("Moving");
-        Vector3 moveVal;
-        moveVal = value.Get<Vector2>();
-        transform.Translate(new Vector3 (moveVal.x,moveVal.y,0) * 5 * Time.deltaTime);
+        moveVal=value.Get<Vector2>();
+        if (test2.Alive)
+        {
+            Debug.Log("I'm still alive!");
+        }
     }
     // Update is called once per frame
     void Update()
     {
-        
+        if (test2.Alive)
+        {
+            transform.Translate(new Vector3(moveVal.x, 0, moveVal.y) * moveSpeed * Time.deltaTime);
+        }
     }
 }
