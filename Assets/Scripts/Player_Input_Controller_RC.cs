@@ -6,12 +6,22 @@ using UnityEngine.InputSystem;
 public class Player_Input_Controller_RC : MonoBehaviour
 {
     public GameObject Player;
+    public float speed;
     private bool moving = false;
     private RaycastHit hit;
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+    private void OnTriggerEnter(Collision collision)
+    {
+        Debug.Log("You hit " + collision.collider.name);
+        if (collision.collider.name.Equals("Home_Sphere"))
+        {
+            Debug.Log("You have made it home!");
+            moving = false;
+        }
     }
     void OnFire(InputValue inputValue)
     {
@@ -38,7 +48,11 @@ public class Player_Input_Controller_RC : MonoBehaviour
             }
             
         }
-       
+        else if ((Physics.Raycast(myRay, out hit) && hit.collider.name.Equals("Home"))) {
+            moving = true;
+        }
+
+
     }
 
     // Update is called once per frame
@@ -46,7 +60,7 @@ public class Player_Input_Controller_RC : MonoBehaviour
     {
         if (moving)
         {
-            Player.transform.position=Vector3.MoveTowards(Player.gameObject.transform.position, hit.point, 0.5f * Time.deltaTime);
+            Player.transform.position=Vector3.MoveTowards(Player.gameObject.transform.position, hit.point, speed * Time.deltaTime);
         }
     }
 }

@@ -1,25 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Timer_Scene.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/MoverScene.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/level1.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Chaser.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/level1 A.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/RayCasting.unity
+- path: Assets/Scenes/LightFollower.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
