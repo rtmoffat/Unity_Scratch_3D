@@ -62,8 +62,9 @@
     <Compile Include="Assets\Scripts\Target_Controller_RC.cs" />
     <Compile Include="Assets\Scripts\Player_Input_Controller_RC.cs" />
     <Compile Include="Assets\Scripts\Chaser.cs" />
-    <Compile Include="Assets\Scripts\PlayerVars.cs" />
     <Compile Include="Assets\Scripts\CreateGrid.cs" />
+    <Compile Include="Assets\Scripts\PlayerVars.cs" />
+    <Compile Include="Assets\Gem_Input_Controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

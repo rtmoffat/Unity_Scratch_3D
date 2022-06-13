@@ -14,7 +14,7 @@ public class Player_Input_Controller_RC : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collision collision)
+    /*private void OnTriggerEnter(Collision collision)
     {
         Debug.Log("You hit " + collision.collider.name);
         if (collision.collider.name.Equals("Home_Sphere"))
@@ -22,7 +22,7 @@ public class Player_Input_Controller_RC : MonoBehaviour
             Debug.Log("You have made it home!");
             moving = false;
         }
-    }
+    }*/
     void OnFire(InputValue inputValue)
     {
         Ray myRay = Camera.main.ScreenPointToRay(new Vector3(Mouse.current.position.x.ReadValue(),Mouse.current.position.y.ReadValue(),100f));

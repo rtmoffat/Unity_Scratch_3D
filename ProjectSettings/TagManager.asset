@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Chaser
+  - BoardTag
+  - TileTag
+  - Gemtag
+  - GemsArray
   layers:
   - Default
   - TransparentFX
@@ -12,9 +15,9 @@ TagManager:
   - HUD
   - Water
   - UI
-  - 
-  - 
-  - 
+  - board_Layer
+  - gem_layer
+  - player_layer
   - 
   - 
   - 

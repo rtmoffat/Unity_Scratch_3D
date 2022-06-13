@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Gem_Input_Controller.cs"
 "Assets/Scripts/Chaser.cs"
 "Assets/Scripts/CreateGrid.cs"
 "Assets/Scripts/Game_Controller_RC.cs"
