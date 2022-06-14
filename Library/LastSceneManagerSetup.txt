@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/LayerTest.unity
+- path: Assets/Click_Drag/Click_Drag.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

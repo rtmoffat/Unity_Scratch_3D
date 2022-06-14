@@ -8,6 +8,7 @@ TagManager:
   - TileTag
   - Gemtag
   - GemsArray
+  - target_object
   layers:
   - Default
   - TransparentFX

@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\CreateGrid.cs" />
     <Compile Include="Assets\Scripts\PlayerVars.cs" />
     <Compile Include="Assets\Gem_Input_Controller.cs" />
+    <Compile Include="Assets\Click_Drag\Drag_and_Drop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
