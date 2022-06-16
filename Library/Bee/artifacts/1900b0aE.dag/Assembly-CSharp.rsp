@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Click_Drag/dnd2.cs"
 "Assets/Click_Drag/Drag_and_Drop.cs"
 "Assets/Gem_Input_Controller.cs"
 "Assets/Scripts/Chaser.cs"
@@ -360,6 +361,7 @@
 "Assets/Scripts/Player_Input_Controller_RC.cs"
 "Assets/Scripts/Target_Controller_RC.cs"
 "Assets/Scripts/timer.cs"
+"Assets/tic_tac_toe/tic_tac_toe_controller.cs"
 -langversion:9.0
 
 /deterministic

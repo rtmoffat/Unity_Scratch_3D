@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Click_Drag/Click_Drag.unity
+- path: Assets/tic_tac_toe/tic_tac_toe_scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game_Controller_RC.cs" />
+    <Compile Include="Assets\Click_Drag\Drag_and_Drop.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\timer.cs" />
     <Compile Include="Assets\Scripts\Target_Controller_RC.cs" />
@@ -64,8 +65,9 @@
     <Compile Include="Assets\Scripts\Chaser.cs" />
     <Compile Include="Assets\Scripts\CreateGrid.cs" />
     <Compile Include="Assets\Scripts\PlayerVars.cs" />
+    <Compile Include="Assets\Click_Drag\dnd2.cs" />
     <Compile Include="Assets\Gem_Input_Controller.cs" />
-    <Compile Include="Assets\Click_Drag\Drag_and_Drop.cs" />
+    <Compile Include="Assets\tic_tac_toe\tic_tac_toe_controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
