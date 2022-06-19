@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 748345211042789048}
   - component: {fileID: 4673793622815399055}
   - component: {fileID: 2222612189697171287}
-  m_Layer: 0
+  - component: {fileID: 7391791065729091519}
+  m_Layer: 11
   m_Name: o_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +28,7 @@ RectTransform:
   m_GameObject: {fileID: 3651119615543386759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 299761262058820787}
@@ -172,6 +173,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4673793622815399055}
   m_maskType: 0
+--- !u!65 &7391791065729091519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3651119615543386759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2001455, y: 3.3042152, z: 0}
+  m_Center: {x: 0.00005018711, y: -0.01606977, z: 0}
 --- !u!1 &9002182484499107424
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,7 +195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 299761262058820787}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: player_o
   m_TagString: Untagged
   m_Icon: {fileID: 0}

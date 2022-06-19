@@ -21,27 +21,25 @@ public class tic_tac_toe_controller : MonoBehaviour
         Vector3 newLoc = Camera.main.ScreenToWorldPoint(objLoc);
         Ray ray = Camera.main.ScreenPointToRay(objLoc);
         RaycastHit hit;
-        if (Physics.Raycast(ray,out hit))
+        if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider != null)
+            if ((hit.collider != null) && (hit.collider.name.Contains("Cube")))
             {
-                Debug.Log("hit "+hit.collider.name);
+                Debug.Log("hit " + hit.collider.name);
                 newLoc = Camera.main.ScreenToViewportPoint(hit.collider.gameObject.transform.position);
                 newLoc.z = -2;
+                if (turn == 1)
+                {
+                    Instantiate(player_x_Obj, Camera.main.ViewportToScreenPoint(newLoc), player_x_Obj.transform.rotation);
+                    turn = 2;
+                }
+                else
+                {
+                    Instantiate(player_o_Obj, Camera.main.ViewportToScreenPoint(newLoc), player_o_Obj.transform.rotation);
+
+                    turn = 1;
+                }
             }
         }
-        
-        if (turn==1)
-        {
-            Instantiate(player_x_Obj, newLoc, player_x_Obj.transform.rotation);
-            turn = 2;
-        }
-        else
-        {
-            Instantiate(player_o_Obj, newLoc, player_o_Obj.transform.rotation);
-            turn = 1;
-        }
-        
-
     }
 }

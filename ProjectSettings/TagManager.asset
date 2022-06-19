@@ -19,9 +19,9 @@ TagManager:
   - board_Layer
   - gem_layer
   - player_layer
-  - 
-  - 
-  - 
+  - TTT_Board_Layer
+  - Block_Layer
+  - Move_Layer
   - 
   - 
   - 
