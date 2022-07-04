@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/tic_tac_toe/tic_tac_toe_scene.unity
+    guid: fd2c7afd0c0a7324eac12ce713bc7ec4
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c2d2c5cce01835a45b661a79ca92189b, type: 2}
